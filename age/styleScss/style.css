@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  width: 100%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form input {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border: 1.5px solid black;
+  border-radius: 3px;
+}
+
+form input[type="text"] {
+  -webkit-animation: inputText 0.5s ease infinite;
+          animation: inputText 0.5s ease infinite;
+  font-weight: bold;
+  text-align: center;
+}
+
+@-webkit-keyframes inputText {
+  0% {
+    color: red;
+  }
+  100% {
+    color: #0026ff;
+  }
+}
+
+@keyframes inputText {
+  0% {
+    color: red;
+  }
+  100% {
+    color: #0026ff;
+  }
+}
+
+form .btn {
+  width: 15%;
+  padding: 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.result1 {
+  margin-top: 35px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-fluid {
+  margin-top: 120px;
+  width: 100%;
+}
+
+.container-fluid img {
+  width: 100%;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.container-fluid .result {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
